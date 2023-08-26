@@ -7,3 +7,6 @@ _Reverse a string or and array._
 
 **Day2**:
 _Find min and max element in an array._
+
+**Day3**:
+_Find Kth min and max element in an array._

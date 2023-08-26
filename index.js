@@ -8,3 +8,5 @@ const str = 'Shreya';
 console.log("reverse of the str is-", reverseString(str))
 
 console.log(`Min and max element of an array is` , findMinNMax(arr))
+
+console.log(`kth Min and max element of an array is` , findKMinNMax(arr, 3))
