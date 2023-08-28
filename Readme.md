@@ -10,3 +10,6 @@ _Find min and max element in an array._
 
 **Day3**:
 _Find Kth min and max element in an array._
+
+**Day4**
+_Given an array of size N containing only 0s, 1s, and 2s; sort the array in ascending order._
