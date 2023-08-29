@@ -3,7 +3,7 @@ export function sortNegativesNPositives(arr){
         if(arr.length <= 1){
             return arr;
         }
-        
+
         let mid = Math.floor((arr.length)/2)
         let leftArr = arr.slice(0,mid)                  
         let rightArr = arr.slice(mid);
@@ -24,10 +24,11 @@ export function sortNegativesNPositives(arr){
                 result.push(rightArr[rightIndex])
                 rightIndex++
             }
-            return result.concat(leftArr.slice(leftIndex),rightArr.slice(rightIndex))
 
 
         }
+        return result.concat(leftArr.slice(leftIndex),rightArr.slice(rightIndex))
+
     }
     return mergeSort(arr)
 }
