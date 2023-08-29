@@ -36,5 +36,5 @@ export function optimiseSolution(arr){
         return result.concat(left.slice(leftIndex), right.slice(rightIndex))
     }
  }
- mergeSort(arr)
+ return mergeSort(arr)
 }
