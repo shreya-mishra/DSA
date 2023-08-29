@@ -33,8 +33,9 @@ export function optimiseSolution(arr){
             rightIndex++
 
         }
-        return result.concat(left.slice(leftIndex), right.slice(rightIndex))
     }
+    return result.concat(left.slice(leftIndex), right.slice(rightIndex))
+
  }
  return mergeSort(arr)
 }
