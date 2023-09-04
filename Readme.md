@@ -16,3 +16,6 @@ _Given an array of size N containing only 0s, 1s, and 2s; sort the array in asce
 
 **Day5**
 _Sort positives and negatives in an array_
+
+**Day6**
+_Union of two arrays_
