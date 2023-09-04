@@ -1,6 +1,11 @@
 export function doUnion(arr1, arr2){
-  const filteredArr1 = arr1.filter(item => !arr2.includes(item));
+  const unionArray = [...arr1];
   
-  const unionArray = [...filteredArr1];
+  for (const item of arr2) {
+    if (!arr1.includes(item)) {
+      unionArray.push(item);
+    }
+  }
+  
   return unionArray;
 }
