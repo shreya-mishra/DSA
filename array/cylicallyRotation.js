@@ -1,12 +1,16 @@
 export const cylicallyRotation = (arr) => {
     var n = arr.length;
-    // [2,3,5,6]
+    //[2,4,5,6,7]
     // var temp;
-    // for(var i=0;i<arr.length-1 ;i++){
+
+    // for(var i=arr.length-1;i>=0 ;i--){
+    //     temp = arr[i]
     //     arr[i] = arr[i+1];    
     //     arr[i+1] = temp;
-    //     temp = arr[i]
     // }
+    // arr.shift();
+
+
     // return arr
     const val= arr[n-1];
     arr.pop();
