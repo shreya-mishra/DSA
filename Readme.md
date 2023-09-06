@@ -19,3 +19,6 @@ _Sort positives and negatives in an array_
 
 **Day6**
 _Union of two arrays_
+
+**Day7**
+_Given an array, rotate the array by one position in clock-wise direction._
