@@ -2,6 +2,7 @@ import { cylicallyRotation } from "./array/cylicallyRotation.js";
 import { doUnion, optimizedDoUnion } from "./array/doUnion.js";
 import { findKMinNMax } from "./array/findKMinNMax.js";
 import { findMinNMax } from "./array/findMinNMax.js";
+import { maxSubArray } from "./array/maxSubArray.js";
 import { reverseArr, reverseString } from "./array/reverse.js";
 import { optimiseSolution, sort012 } from "./array/sort012.js";
 import { sortNegativesNPositives } from "./array/sortNegativesNPositives.js";
@@ -25,3 +26,5 @@ console.log('Union of two arrays' , doUnion([3,5,6],[3,5,2]))
 console.log('Optimized function of Union of two arrays' , optimizedDoUnion([3,5,6],[2,3,5,7]))
 
 console.log('Cylically rotated array by one',cylicallyRotation(arr))
+
+console.log('find the max contigous subarray', maxSubArray(arr))

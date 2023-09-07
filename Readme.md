@@ -21,4 +21,10 @@ _Sort positives and negatives in an array_
 _Union of two arrays_
 
 **Day7**
+_Optimized union of arrays_
+
+**Day8**
 _Given an array, rotate the array by one position in clock-wise direction._
+
+**Day9**
+kanden's algorithm
