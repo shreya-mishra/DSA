@@ -28,3 +28,6 @@ _Given an array, rotate the array by one position in clock-wise direction._
 
 **Day9**
 kanden's algorithm
+
+**Day10**
+Minimize the Heights
