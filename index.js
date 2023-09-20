@@ -3,6 +3,7 @@ import { doUnion, optimizedDoUnion } from "./array/doUnion.js";
 import { findKMinNMax } from "./array/findKMinNMax.js";
 import { findMinNMax } from "./array/findMinNMax.js";
 import { maxSubArray } from "./array/maxSubArray.js";
+import { minJumps } from "./array/minJumps.js";
 import { minimizeHeight } from "./array/minimizeTheHeights.js";
 import { reverseArr, reverseString } from "./array/reverse.js";
 import { optimiseSolution, sort012 } from "./array/sort012.js";
@@ -31,3 +32,5 @@ console.log('Cylically rotated array by one',cylicallyRotation(arr))
 console.log('find the max contigous subarray', maxSubArray(arr))
 
 console.log('minimize the height', minimizeHeight(arr))
+
+console.log('Minimum number of jumps', minJumps(arr))
